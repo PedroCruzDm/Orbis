@@ -1,6 +1,8 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { firebaseConfig } from './Firebase/config.js';
 
+//console.log('Firebase Config:', firebaseConfig);
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],

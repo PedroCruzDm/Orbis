@@ -1,0 +1,17 @@
+.sidebarStyle{
+    width: 135px;
+    height: 100vh;
+    background-color: #144b8aff;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0;
+}
+
+.logoStyle{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+    padding-left: 24px;
+}

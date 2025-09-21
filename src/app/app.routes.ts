@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/HomePage/app.HomePage';
 import { CadastroComponent } from './components/Cadastro/app.Cadastro';
+import { ProfileHome } from './components/Profile/app.Profile';
 
 export const routes: Routes = [
     {
@@ -20,7 +21,7 @@ export const routes: Routes = [
         component: CadastroComponent
     },
     {
-        path: 'profile',
+        path: 'register',
         component: CadastroComponent
     },
     {
@@ -38,5 +39,9 @@ export const routes: Routes = [
     {
         path: 'foco',
         component: HomeComponent
+    },
+    {
+        path: 'profile',
+        component: ProfileHome
     }
 ];
